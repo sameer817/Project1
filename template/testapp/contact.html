@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{%extends 'testapp/base.html'%}
+{%block body_block%}
+<form class="" method="post">
+  {{form.as_p}}
+  {%csrf_token%}
+  <input type="submit" name="" value="submit"><br><br><br>
+
+  <h1><b>Contact Info</b></h1>
+  <h3>19-219</h3>
+  <h3>Vinukonda</h3>
+  <h3>Guntur</h3>
+  <h3>Andhra Pradesh</h3>
+
+
+</form>
+
+{%endblock%}

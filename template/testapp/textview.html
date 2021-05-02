@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{%extends 'testapp/base.html'%}
+{%block body_block%}
+{%if text_data%}
+{%for t in text_data%}
+<h1>{{t.Name}}</h1>
+<h2>{{t.Text}}</h2>
+{%endfor%}
+{%endif%}
+
+
+
+{%endblock%}
